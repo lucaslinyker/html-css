@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Gradientes Radiais</title>
+    <style>
+        body {
+            /* 
+            Um gradiente radial é definido pelo seu centro.
+            Sintaxe: background-image: radial-gradient(shape size at position, start-color, ..., last-color);
+            Por padrão, a forma é elipse, o tamanho é o canto mais distante e a posição é o centro.
+
+            Gradiente radial - Paradas de cores uniformemente espaçadas (este é o padrão)
+            O exemplo a seguir mostra um gradiente radial com paradas de cores uniformemente espaçadas:
+            background-image: radial-gradient(red, yellow, green);
+
+            Gradiente radial - Paradas de cores com espaçamento diferente
+            O exemplo a seguir mostra um gradiente radial com paradas de cores com espaçamento diferente:
+            background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+
+            Definir forma
+            O primeiro parâmetro define a forma. Pode assumir o valor círculo ou elipse. O valor padrão é elipse.
+            O exemplo a seguir mostra um gradiente radial com a forma de um círculo:
+            background-image: radial-gradient(circle, red, yellow, green);
+
+            h ver
+            */
+            background-image: radial-gradient(closest-corner at 40% 20%, red, yellow, black);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+</html>

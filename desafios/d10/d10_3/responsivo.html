@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+            /* A imagem diminui e aumenta automaticamente */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quam amet optio cum architecto odit doloremque! Sapiente rem libero, beatae corrupti architecto illum eligendi rerum cupiditate veniam amet natus esse!
+        Pariatur error suscipit nesciunt! Suscipit, iure! Provident, modi porro. Maiores illo, velit consequatur cupiditate perspiciatis ad nesciunt voluptatum obcaecati laudantium unde qui eaque possimus accusantium exercitationem. Autem, rerum. Doloremque, velit.
+        Sapiente eius eaque vitae laboriosam nostrum optio, voluptate totam rem nobis! Iusto asperiores, beatae id illum qui tenetur autem eum nisi nihil numquam error assumenda labore rem dolores reprehenderit corporis.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> <!-- Até 600px, vai ser essa -->
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok"> <!-- De 601px para cima, será essa -->
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nesciunt tempora harum porro iure necessitatibus obcaecati, enim voluptatibus, minima cupiditate consectetur ab veniam? Aspernatur perspiciatis deserunt porro dolorum provident quo?
+        Enim consectetur, voluptatum nesciunt labore quam porro quo optio distinctio! Ipsa, illum? Consequuntur sint asperiores quod alias, quidem dolorum distinctio reprehenderit totam tenetur dicta sunt voluptas in. Voluptatem, at laboriosam.
+        Dolorem enim animi itaque voluptatem ut impedit maiores? Sed sint neque voluptatibus fugiat placeat, similique animi officiis deserunt dolorum aperiam exercitationem culpa? Natus a recusandae beatae ullam, hic esse modi?</p>
+    </main>
+</body>
+</html>

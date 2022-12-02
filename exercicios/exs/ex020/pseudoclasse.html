@@ -1,0 +1,29 @@
+<!-- Os IDs identificam elementos na página. Não é permitido que dois elementos tenham um mesmo ID em um mesmo documento HTML, fica ligadinha aí! -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            display: inline-block; /* exibe uma div ao lado da outra, em linha */
+            background-color: lightgray;
+            border: 1px solid black; /* borda do bloco */
+            text-align: center;
+            height: 200px; /* altura do bloco */
+            width: 200px; /* largura do bloco */
+        }
+
+        div:hover { /* :hover é quando o mouse está em cima do elemento */
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id='d1'>01</div>
+    <div id='d2'>02</div>
+    <div id='d3'>03</div>
+</body>
+</html>

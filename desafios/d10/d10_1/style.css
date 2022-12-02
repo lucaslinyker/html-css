@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fontes/BebasNeue-Regular.otf);
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor5);
+    background-color: rgb(235, 222, 202);
+}
+
+div#tudo {
+    width: 70%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.595);
+    background-color: white;
+    border-radius: 0px 0px 3px 3px;
+}
+
+header {
+    color: var(--cor0);
+    background-image: linear-gradient(to bottom, var(--cor3)20%, var(--cor4));
+    height: 150px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+nav {
+    margin-top: 60px;
+    margin-left: 10px;
+    color: var(--cor1);
+    background-color: #063d1e;
+}
+
+.titulo {
+    font-family: var(--fonte1);
+}
+
+h2 {
+    font-family: var(--fonte2);
+}
+
+.subtitulo {
+    background-image: linear-gradient(to right, var(--cor2), white);
+    font-family: var(--fonte2);
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    /* margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -15px; */
+    padding-bottom: 59%;
+}
+
+h2, h3, h4, p {
+    margin: 10px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor2);
+    border-radius: 5px;
+}
+
+aside > p {
+    padding: 10px;
+}
+
+main > a {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    margin: 20px 0px;
+}
+
+.center { text-align: center; }
+
+footer {
+    background-color: var(--cor4);
+    margin-top: 10px;
+    color: white;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}

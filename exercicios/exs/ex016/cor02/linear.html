@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+
+        /* 
+        CSS3 define três tipos de gradiente:
+        ° Lineares (desce, cima, esquerda, direita, diagonal)
+        ° Radiais (definidos pelo seu centro)
+        ° Cônicos (girados em torno de um ponto central)
+        */
+
+        * { /* Configurações globais das CSS */
+            height: 100%;
+        }
+        body {
+            /*
+            Para criar um gradiente linear, você deve definir pelo menos duas cores. Você também pode definir uma direção (ou um ângulo) junto com o efeito de gradiente.
+            O padrão é de cima para baixo.
+            Sintaxe: background-image: linear-gradient(direção, cor, cor, ...);
+            background-image: linear-gradient(to right, #7F03FD, #FE009B, #FF1F27, #FE6E00, #FFB900);
+            
+            Direção - Diagonal
+            Você pode fazer um gradiente na diagonal especificando as posições finais verticais e horizontais.
+            O exemplo a seguir mostra um gradiente linear que termina no canto inferior direito (e começa no canto superior esquerdo). Começa em vermelho, passando para amarelo:
+            background-image: linear-gradient(to bottom right, red, yellow);
+
+            Usando ângulos
+            Se você quiser mais controle sobre a direção do gradiente, você pode definir um ângulo, em vez das direções predefinidas (para baixo, para cima, para a direita, para a esquerda, para baixo à direita, etc.). Um valor de 0deg é equivalente a "to top". Um valor de 90 graus é equivalente a "à direita". Um valor de 180 graus é equivalente a "para baixo".
+            Sintaxe: background-image: linear-gradient(angle, color, color, ...);
+            O exemplo a seguir mostra como usar ângulos em gradientes lineares:
+            background-image: linear-gradient(180deg, red, yellow);
+
+            Usando transparência
+            Os gradientes CSS também suportam transparência, que pode ser usada para criar efeitos de desvanecimento.
+            Para adicionar transparência, usamos a função rgba() para definir as paradas de cor. O último parâmetro na função rgba() pode ser um valor de 0 a 1 e define a transparência da cor: 0 indica transparência total, 1 indica cor total (sem transparência).
+            O exemplo a seguir mostra um gradiente linear que começa da esquerda. Ele começa totalmente transparente, fazendo a transição para vermelho colorido:
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+            */
+
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando gradiente</h1>
+</body>
+</html>
