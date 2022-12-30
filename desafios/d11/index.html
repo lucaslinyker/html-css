@@ -7,30 +7,32 @@
     <title></title>
     <style>
         body {
-            position: relative;
-            background: url(imagens/target001.png) center center / 100% 100% no-repeat fixed;
-            /* background-color: darkblue;
-            background-image: url(imagens/target001.png);
-            background-position: center center;
+            /* background:  url(imagens/target001.png) center center / 100% 100% no-repeat fixed; */
+            background-image: url(imagens/espaco.jpg);
             background-size: 100% 100%;
-            background-repeat: no-repeat;
-            background-attachment: fixed; */
-            height: 95vh;
+
+            position: relative;
+            height: 97vh;
+
         }
         
-        img {
+        div {
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
+
             position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: aqua;
+
             left: 50%;
             top: 50%;
-            transform: translate(-50%, -47%);
 
-            max-width: 500px;
-            max-height: 500px;
-            /* background-image: url(imagens/wallpaper003.jpg); */
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <img src="imagens/target001.png" alt="astronauta">
+    <div></div>
 </body>
 </html>
