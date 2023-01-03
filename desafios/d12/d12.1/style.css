@@ -74,10 +74,12 @@ section.parallax > p {
 
 section#img1 {
     background-image: url(imagens/background001.jpg);
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 
 footer {
