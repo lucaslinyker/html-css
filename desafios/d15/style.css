@@ -7,7 +7,6 @@ body {
 }
 
 main {
-    position: relative;
     height: 100vh;
 }
 
@@ -39,10 +38,10 @@ nav > a > img {
     height: 50px;
     border-radius: 50%;
     margin: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: border 3s;
 }
 
 nav > a > img:hover {
     border: 1px solid white;
-    transition: 3s;
 }
