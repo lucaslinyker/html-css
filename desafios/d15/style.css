@@ -48,6 +48,13 @@ nav > a > img {
     margin: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     transition: border .3s;
+    /*
+        TRANSITION SHORTHAND
+        transition-property: border;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 1ms;
+    */
 }
 
 nav > a > img:hover {
