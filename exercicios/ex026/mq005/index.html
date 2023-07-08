@@ -37,6 +37,7 @@
 
     <script>
         function mudouTamanho() {
+            // window.innerWidth == largura da página
             if (window.innerWidth >= 768) {
                 itens.style.display = 'block'
             } else {
@@ -45,6 +46,7 @@
         }
 
         function clickMenu() {
+            // ~como ta no mesmo arquivo não precisa usa document.getElementById
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
             } else {
