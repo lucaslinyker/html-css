@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de login">
+    <meta name="color-scheme" content="light">
     <title>Login</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main class="card">
-        <section class="image">
+        <section class="card__image">
             <!-- <img src="image/metal.jpg" alt="Prédio"> -->
         </section>
-        <section class="login">
-            <h1 class="login__title">Login</h1>
-            <p class="login__text">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <section class="card__login">
+            <h1 class="card__login-title">Login</h1>
+            <p class="card__login-text">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-            <form action="#" method="post" class="form">
-                <div class="campo">
-                    <label for="iemail">
-                        <span class="material-icons">person</span>
+            <form action="#" method="post" class="card__form">
+                <div class="card__form-field">
+                    <label for="email" class="card__form-field__label">
+                        <span class="material-icons card__form-field__icon">person</span>
                     </label>
-                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+                    <input type="email" id="email" placeholder="seu e-mail" autocomplete="email" required maxlength="30" class="card__form-field__input">
                 </div>
 
-                <div class="campo">
-                    <label for="ipassword">
-                        <span class="material-icons">vpn_key</span>
+                <div class="card__form-field">
+                    <label for="password" class="card__form-field__label">
+                        <span class="material-icons card__form-field__icon">vpn_key</span>
                     </label>
-                    <input type="password" name="password" id="ipassword" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="30">
+                    <input type="password" id="password" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="30" class="card__form-field__input">
                 </div>
 
-                <button type="submit" class="button button--highlight">Entrar</button>
-                <button class="button">Esqueci a senha <span class="material-icons">mail</span></button>
+                <button type="submit" class="card__button card__button--highlight">Entrar</button>
+                <button class="card__button">Esqueci a senha <span class="material-icons card__button-icon">mail</span></button>
             </form>
         </section>
     </main>

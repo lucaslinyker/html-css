@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --cor0: #2d6462;
-    --cor1: #49a09d;
+    --cor0: #2d625f;
+    --cor1: #3c7b78;
     --cor2: #5f2c82;
     --cor3: #ffffff;
     --cor4: #6cd3cf;
@@ -34,29 +34,29 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 }
 
-.image {
+.card__image {
     height: 200px;
-    background: var(--cor2) url(../image/metal.jpg) no-repeat;
+    background: var(--cor2) url(../image/metal.webp) no-repeat;
     background-size: cover;
     background-position: left bottom;
     border-radius: 20px 20px 0px 0px;
 }
 
-.form {
+.card__login {
     padding: 10px;
     text-align: center;
 }
 
-.form > h1 {
+.card__login-title {
     margin: 5px 0px;
 }
 
-.form > p {
+.card__login-text {
     font-size: .8em;
     text-align: left;
 }
 
-.campo {
+.card__form-field {
     margin: 10px 0px;
     width: 230px;
     height: 40px;
@@ -64,29 +64,30 @@ body {
     border-radius: 5px;
 }
 
-.campo > label > span {
+.card__form-field__icon {
     font-size: 1.9em;
     width: 40px;
     padding: 5px;
     color: var(--cor3);
 }
 
-input {
+.card__form-field__input {
     width: 180px;
     height: 35px;
     background-color: var(--cor5);
     border-width: 0;
     border-radius: 5px;
+    padding: 4px;
     transform: translateY(-11px);
 }
 
-input:focus {
+.card__form-field__input:focus {
     background-color: var(--cor3);
     outline: 2px solid black;
 
 }
 
-.button {
+.card__button {
     display: block;
     margin: 10px 0px;
     width: 230px;
@@ -96,21 +97,21 @@ input:focus {
     color: var(--cor0);
 }
 
-.button > span {
+.card__button-icon {
     font-size: 1em;
     color: var(--cor0);
     transform: translateY(2px);
 }
 
-.button:hover {
+.card__button:hover {
     background-color: var(--cor4);
 }
 
-.button--highlight {
+.card__button--highlight {
     background-color: var(--cor1);
     color: var(--cor3);
 }
 
-.button--highlight:hover {
+.card__button--highlight:hover {
     background-color: var(--cor0);
 }
