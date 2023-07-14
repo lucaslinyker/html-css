@@ -30,6 +30,9 @@ body {
     background-color: var(--cor3);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 3s, height 3s;
+    transition-timing-function: ease;
 }
 
 .card__image {
@@ -97,6 +100,7 @@ body {
     border-radius: 5px;
     border: 1px solid var(--cor1);
     color: var(--cor0);
+    cursor: pointer;
 }
 
 .card__button-icon {
