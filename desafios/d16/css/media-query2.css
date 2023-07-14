@@ -1,0 +1,49 @@
+:root {
+    --cor1: #3c7b78;
+    --cor2: #5f2c82;
+}
+
+body {
+    background: linear-gradient(to top, #49a09d, var(--cor2));
+}
+
+.card {
+    width: 950px;
+    height: 350px;
+}
+
+.card__image {
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.card__login {
+    width: 50%;
+    float: left;
+}
+
+.card__login-title {
+    margin: 10px 0px;
+    font-size: 2em;
+}
+
+.card__login-text {
+    margin: 15px 0px;
+    font-size: 1em;
+}
+
+.card__form-field {
+    margin: 13px 0px;
+    width: 100%;
+}
+
+.card__form-field__input {
+    width: calc(100% - 50px);
+}
+
+.card__button {
+    margin: 13px 0px;
+    width: 100%;
+}
