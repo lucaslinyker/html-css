@@ -13,7 +13,6 @@ body {
 }
 
 .card__image {
-    border-radius: 20px 0px 0px 20px;
     width: 30%;
     height: 100%;
     float: left;
@@ -24,20 +23,8 @@ body {
     float: right;
 }
 
-.card__login-title {
-    margin: 5.5px 0px;
-}
-
-.card__form-field {
-    margin: 5.5px 0px;
-    width: 100%;
-}
-
-.card__form-field__input {
-    width: calc(100% - 50px);
-}
-
+.card__login-title,
+.card__form-field,
 .card__button {
-    width: 100%;
     margin: 5.5px 0px;
 }
